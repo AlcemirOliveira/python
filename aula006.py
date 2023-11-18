@@ -1,0 +1,11 @@
+n1=input('digite um numero : ')
+n2=input('digite outro : ')
+n3=input('digite uma palavra ')
+s1=n1+n2 #concatenação de strings
+s2=int(n1)+int(n2)
+print(' a soma de ',n1, 'e',n2, 'é igual a ',s1)
+print('a soma de {} e {} é igual a {}'.format(n1,n2,s2))
+print('{} é numerico :'.format(n1) ,n1.isnumeric())
+print('{} é numerico : '.format(s1),s1.isnumeric())
+print('{} é numerico : '.format(n3),n3.isnumeric())
+print('{} é maiuscula : '.format(n3),n3.isupper())
