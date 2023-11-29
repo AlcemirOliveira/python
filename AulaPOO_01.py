@@ -1,6 +1,6 @@
 class Meu_Objeto :
     def __init__(self):
-        self.nome="Pedro"
+        self.nome="Paulo"
         self.idade = 30
         #print("construtor chamado com sucesso")
 
@@ -23,6 +23,7 @@ class Meu_Objeto2 :
 
 anderson = Meu_Objeto2("Anderson",25)
 anderson.imprime(5)
+
 print("="*30)
 #============== terceiro caso ==========
 class Meu_Objeto3:

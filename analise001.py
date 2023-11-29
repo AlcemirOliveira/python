@@ -16,8 +16,8 @@ print('='*50)
 # calculo IMC  usando NUMPY array
 nAltura = np.array(altura)
 nPeso=np.array(peso)
-imc = nPeso / nAltura**2
+imc = np.round(nPeso / nAltura**2,2)
 print('peso:',peso)
 print('altura:',altura)
-print('imc:',imc)
+print('imc: {}'.format(imc))
 print('='*50)
